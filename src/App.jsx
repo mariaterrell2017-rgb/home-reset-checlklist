@@ -164,15 +164,14 @@ export default function App() {
         </div>
         <div className="timer-buttons">
           {!started ? (
-             <div>
-  <button>
-    Start My Reset
-  </button>
-
-  <a href="https://linktr.ee/popbyriaAZ" target="_blank">
-  <button>Book Your Cleaning Today</button>
-</a>
-</div>
+            <button
+  className="btn btn-primary"
+  onClick={handleStart}
+  >
+    
+>
+  Start My Reset
+</button>
           ) : (
             <>
               <button
